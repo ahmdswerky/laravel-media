@@ -31,7 +31,7 @@ class Media extends Model
         }
     }
 
-    public static function createFor(array $attributes = [], Model $morph)
+    public static function createFor(array $attributes = [ ], Model $morph)
     {
         $media = new Media;
 
@@ -78,6 +78,6 @@ class Media extends Model
             return $this->path;
         }
 
-        return url( str_replace('public', 'storage', $this->path), [], !app()->isLocal() );
+        return url( str_replace('public', 'storage', $this->path), [ ], !app()->isLocal() );
     }
 }

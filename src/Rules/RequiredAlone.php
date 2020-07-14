@@ -7,7 +7,7 @@ use Illuminate\Contracts\Validation\Rule;
 
 class RequiredAlone implements Rule
 {
-    protected $forbidden = [];
+    protected $forbidden = [ ];
     
     protected $field = null;
     

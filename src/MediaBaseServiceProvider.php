@@ -40,7 +40,7 @@ class MediaBaseServiceProvider extends ServiceProvider
     
     protected function loadRoutes()
     {
-        $routes = config('media.routes') ?? [];
+        $routes = config('media.routes') ?? [ ];
         foreach ($routes as $route) {
             Route::prefix($route['prefix'])->middleware($route['middlewares'])->namespace('AhmdSwerky\Media\Http\Controllers')->group(function () {
                 $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');

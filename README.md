@@ -115,4 +115,4 @@ POST        | /api/admin/media/{model}/{id} | admin
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

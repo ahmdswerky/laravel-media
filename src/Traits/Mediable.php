@@ -88,7 +88,7 @@ Trait Mediable
             ]);
     }
 
-    public function addMedia($path, $type = 'photo', array $additional = [])
+    public function addMedia($path, $type = 'photo', array $additional = [ ])
     {
         if ( $path instanceof UploadedFile ) {
             $path = $this->storeFile($path, $type);
@@ -104,7 +104,7 @@ Trait Mediable
         ], $this);
     }
 
-    public function addMediaUrl($url, $type = 'photo', array $additional = [])
+    public function addMediaUrl($url, $type = 'photo', array $additional = [ ])
     {
         return Media::createFor([
             'path' => $url,
@@ -116,7 +116,7 @@ Trait Mediable
         ], $this);
     }
 
-    public function updateMedia(Media $media, $path, array $additional = [])
+    public function updateMedia(Media $media, $path, array $additional = [ ])
     {
         if ( $path instanceof UploadedFile ) {
             $path = $this->storeFile($path, $media->type);
