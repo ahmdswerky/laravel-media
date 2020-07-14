@@ -1,7 +1,6 @@
 ![Laravel Media](logo.png)
 
 <p align="center">
-<a href="https://packagist.org/packages/ahmdswerky/laravel-media"><img src="https://poser.pugx.org/ahmdswerky/laravel-media/license" alt="License"></a>
 <a href="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media"><img src="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
 <a href="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media"><img src="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media/badges/build.png?b=master" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media"><img src="https://scrutinizer-ci.com/g/ahmdswerky/laravel-media/badges/code-intelligence.svg?b=master" alt="Code Intelligence Status"></a>
